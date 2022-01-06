@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+section{
+    margin-top: 50px;
+}
+.margin-bottom{
+    margin-bottom: 35px;
+}
+.margin-top{
+    margin: 30px 0 0 0;
+}
+section{
+    text-align: justify;
+    word-break: break-all;
+}
+section p{
+    
+    -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+/* header */
+.header-right img{
+    display: block;
+    width: 40%;
+    height: auto;
+     margin: auto;
+    }
+#header{
+    display: flex;
+}
+.header-left, .header-right{
+    width: 48%;
+}
+.header-message{
+    display: flex;
+}
+.border{
+    border-left: 3px solid #FF5959;
+    height: 47px;
+    width: 13px;
+    margin-top: 26px;
+}
+
+.mission-2022{
+    display: block;
+    color: #EF9D2D;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.resume-btn{
+    background-color: #FF5959;
+    color: #fff;
+}
+.section-headline{
+    text-align: center;
+}
+/* three section */
+.three-section-area{
+    display: flex;
+}
+.three-section{
+    width: 32%;
+    border-radius: 10px;
+    
+}
+.three-section img{
+    width: 130px;
+    height: 130px;
+}
+/* my mission */
+.mission-year{
+    color: #EF9D2D;
+}
+.mission{
+    background-color: #EDF5F6;
+}
+.vission{
+    background-color: #FFEEEE;
+    margin: 0 2% 0 2%;
+}
+.goal{
+    background-color: #FFF4D6;
+}
+.three-section-content{
+    padding: 0 10px 30px 30px;
+    box-sizing: border-box;
+}
+.two-section{
+    clear: both;
+    display: flex;
+    align-items: center;
+}
+.two-section-img{
+    width: 30%;
+}
+.two-section-img img{
+    width: 100%;
+}
+.two-section-content{
+    width: 65%;
+}
+.margin-5{
+    margin: 0 5% 0 0;
+}
+.read-documentation-btn{
+    background-color: #FF5959;
+    color: #fff;
+}
+/* community leaders */
+.community-leaders-section{
+    display: flex;
+}
+.leaders{
+    display: block;
+    color: #FFAD5A;
+}
+.four-section{
+    width: 23%;
+}
+.four-section img{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+.two-percent-margin{
+    margin: 0 2% 0 0;
+}
+/* footer */
+footer{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #0B0D17;
+    margin-top: 50px;
+}
+footer p{
+    color: #577085;
+}
+footer h2{
+    color: #fff;
+}
